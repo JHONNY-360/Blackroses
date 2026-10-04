@@ -1,0 +1,370 @@
+body {
+    background-color: #252525;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    color: #bdbdbd;
+    font-size: 18px;
+}
+
+/* HEADER */
+
+header {
+    padding: 35px 20px 20px;
+    border-bottom: 1px solid #555;
+}
+
+h1 {
+    font-size: 42px;
+    letter-spacing: 8px;
+    margin: 10px 0;
+}
+
+.subtitulo {
+    margin: 10px 0 30px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #aaa;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 4px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+/* SECCIONES */
+
+section {
+    min-height: 500px;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin-bottom: 35px;
+}
+
+/* INICIO */
+
+.hero {
+    min-height: 650px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.hero h2 {
+    margin: 20px 0 5px;
+    font-size: 38px;
+    letter-spacing: 7px;
+}
+
+.hero p {
+    margin: 5px 0;
+    color: #aaa;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* MÚSICA */
+
+.album {
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.album h3 {
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.album p {
+    margin: 10px 0;
+}
+
+.album button {
+    margin-top: 20px;
+    padding: 13px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #777;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.album button:hover {
+    background-color: white;
+    color: #252525;
+}
+
+/* BANDA */
+
+.miembros {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.miembro {
+    border: 1px solid white;
+    padding: 25px;
+}
+
+.miembro h3 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin: 0 0 10px;
+}
+
+.miembro p {
+    margin: 0;
+}
+
+/* GRAVEYARD */
+
+.tracklist {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.track {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px 10px;
+    border-bottom: 1px solid #444;
+}
+
+.track > div {
+    flex: 1;
+}
+
+.track > div > span {
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.track span:first-child {
+    width: 40px;
+    color: #aaa;
+}
+
+.track span:last-child {
+    flex: 1;
+    letter-spacing: 2px;
+}
+
+.track audio {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 5px;
+}
+
+/* MEDIA */
+
+.galeria {
+    max-width: 700px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.media-item {
+    min-height: 180px;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-item p {
+    letter-spacing: 3px;
+    color: #aaa;
+}
+
+.media-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* REDES SOCIALES */
+
+.redes-lista {
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.redes-lista a {
+    display: block;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all 0.3s;
+}
+
+.redes-lista a:hover {
+    background-color: white;
+    color: #252525;
+}
+
+.redes-lista span {
+    display: block;
+    margin-top: 8px;
+    color: #aaa;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* CONTACTO */
+
+.contacto-info {
+    margin: 40px auto 25px;
+    max-width: 500px;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+.contacto-info p {
+    margin: 10px 0;
+}
+
+.contacto-boton {
+    display: inline-block;
+    padding: 13px 30px;
+    border: 1px solid #777;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.contacto-boton:hover {
+    background-color: white;
+    color: #252525;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 40px 20px;
+    border-top: 1px solid white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 32px;
+        letter-spacing: 6px;
+    }
+
+    .subtitulo {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 4px;
+        font-size: 11px;
+    }
+
+    section {
+        padding: 80px 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    .hero {
+        min-height: 550px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero img {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .album {
+        padding: 25px 15px;
+    }
+
+    .track {
+        gap: 10px;
+        padding: 22px 5px;
+    }
+
+    .track audio {
+        max-width: 100%;
+    }
+
+    .miembro {
+        padding: 20px 15px;
+    }
+
+    .galeria {
+        width: 100%;
+    }
+}
+.rosa-detalle {
+    margin: 8px 0 0;
+    color: #888;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
